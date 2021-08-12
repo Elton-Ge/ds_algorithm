@@ -20,10 +20,16 @@ class ArrayStack {
   private int[] stack;
   private int top;
 
+  public ArrayStack() {}
+
   public ArrayStack(int maxSize) {
     this.maxSize = maxSize;
     this.stack = new int[maxSize];
     this.top = -1;
+  }
+
+  public int peek() {
+    return stack[top];
   }
 
   public boolean isFull() {

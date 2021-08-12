@@ -32,4 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-.mvn
+.mvn!/ds_algorithm.iml
+!/ds_algorithm.iml
+
+*.iml
